@@ -14,6 +14,7 @@
 		8C8D778E1F4CB3AD00F53B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D778C1F4CB3AD00F53B28 /* LaunchScreen.storyboard */; };
 		8C8D77991F4CB3AD00F53B28 /* FiboTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D77981F4CB3AD00F53B28 /* FiboTestTests.swift */; };
 		8C8D77A41F4CB3DD00F53B28 /* Fibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D77A31F4CB3DD00F53B28 /* Fibo.swift */; };
+		8CF7FF541F4CD45400A7A08A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7FF531F4CD45400A7A08A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8C8D77981F4CB3AD00F53B28 /* FiboTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiboTestTests.swift; sourceTree = "<group>"; };
 		8C8D779A1F4CB3AD00F53B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8D77A31F4CB3DD00F53B28 /* Fibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibo.swift; sourceTree = "<group>"; };
+		8CF7FF531F4CD45400A7A08A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		8C8D77771F4CB3AD00F53B28 = {
 			isa = PBXGroup;
 			children = (
+				8CF7FF531F4CD45400A7A08A /* README.md */,
 				8C8D77821F4CB3AD00F53B28 /* FiboTest */,
 				8C8D77971F4CB3AD00F53B28 /* FiboTestTests */,
 				8C8D77811F4CB3AD00F53B28 /* Products */,
@@ -206,6 +209,7 @@
 			files = (
 				8C8D77861F4CB3AD00F53B28 /* ViewController.swift in Sources */,
 				8C8D77841F4CB3AD00F53B28 /* AppDelegate.swift in Sources */,
+				8CF7FF541F4CD45400A7A08A /* README.md in Sources */,
 				8C8D77A41F4CB3DD00F53B28 /* Fibo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +422,7 @@
 				8C8D779F1F4CB3AD00F53B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8D77A01F4CB3AD00F53B28 /* Build configuration list for PBXNativeTarget "FiboTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				8C8D77A21F4CB3AD00F53B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
