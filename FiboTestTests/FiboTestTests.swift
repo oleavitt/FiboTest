@@ -21,15 +21,27 @@ class FiboTestTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testUnoptimizedFibo() {
+        let result = Fibo.rfib(7)
+        XCTAssert(result == 21)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testOptimizedFibo() {
+        let result = Fibo.startRfibMemo(7)
+        XCTAssert(result == 21)
+    }
+    
+    func testMeasureUnoptimizedFibo() {
         self.measure {
-            // Put the code you want to measure the time of here.
+            Fibo.count = 0
+            let _ = Fibo.rfib(40)
+        }
+    }
+    
+    func testMeasureOptimizedFibo() {
+        self.measure {
+            Fibo.count = 0
+            let _ = Fibo.startRfibMemo(40)
         }
     }
     
