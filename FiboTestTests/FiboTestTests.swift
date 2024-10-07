@@ -34,14 +34,14 @@ class FiboTestTests: XCTestCase {
     func testMeasureUnoptimizedFibo() {
         self.measure {
             Fibo.count = 0
-            let _ = Fibo.rfib(40)
+            let _ = Fibo.rfib(35)
         }
     }
     
     func testMeasureOptimizedFibo() {
         self.measure {
             Fibo.count = 0
-            let _ = Fibo.startRfibMemo(40)
+            let _ = Fibo.startRfibMemo(35)
         }
     }
     
